@@ -10,8 +10,6 @@
 
 @protocol HUDViewControllerProtocol <NSObject>
 
-@optional
-
 // protocol method declarations - implement in ZVC
 - (void)loadLionImages;
 - (void)loadTigerImages;
@@ -19,8 +17,10 @@
 @end
 
 @interface HUDViewController : UIViewController
-// 
+
 @property (nonatomic, assign) id <HUDViewControllerProtocol> delegate;
+@property (strong, nonatomic) IBOutlet UIButton *lionsButtonTapped;
+@property (strong, nonatomic) IBOutlet UIButton *tigersButton;
 
 // declared a instance method
 //- (void)doSomething;

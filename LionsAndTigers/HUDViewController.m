@@ -28,10 +28,6 @@
     [self.delegate loadTigerImages];
 }
 
-// implemented
-- (void)doSomething {
-    //NSLog(@"I did something!!!");
-}
 
 @end
 

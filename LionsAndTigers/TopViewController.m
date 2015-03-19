@@ -20,7 +20,7 @@
 }
 
 // thread the delegate method
-- (IBAction)topRevealButtonTapped:(UIBarButtonItem *)button {
+- (IBAction)topRevealButtonTapped:(id)button {
 
     [self.delegate topRevealButtonTapped];
 

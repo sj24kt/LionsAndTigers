@@ -10,9 +10,8 @@
 
 @protocol TopViewControllerDelegate <NSObject>
 
-@optional
-
-// protocol method declarations - implement in ZVC
+// protocol method declarations - implement in ZVC - optional/required
+// always going to need it because you're always going to need it
 - (void)topRevealButtonTapped;
 
 @end
